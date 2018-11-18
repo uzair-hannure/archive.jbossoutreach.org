@@ -36,7 +36,7 @@ $ bundle exec jekyll serve --host 0.0.0.0
 
 ## Adding a mentor
 
-To add a mentor you need to create a file with your github username `<username>.yml` in `_data/mentors` folder and please maintain the following format *EXACTLY* (replacing values where indicated):
+To add a mentor you need to create a file with your github username `<username>.yml` in the `_data/mentors` folder. Please maintain the following format *EXACTLY* (replacing values where indicated):
 
 ```yaml
 name: Your name
@@ -48,26 +48,26 @@ blog: https://yourbloglink.com
 
 **IMPORTANT:**
 
-- All images must be optimized before uploaded to the repo via commit or PR. You may use any image optimizer of your choice.
+- All images must be optimized before they are uploaded to the repo via commit or PR. You may use any image optimizer of your choice.
 - The images should be 240 x 240 pixels.
-- Adding Facebook, Twitter, Github, etc. is not obliged. But if you do not want to include social media accounts, please do not provide empty fields like `facebook:`. Ask the mentors if you do not know their accounts.
+- Adding Facebook, Twitter, Github, etc. is not compulsary, but if you do not want to include social media accounts, please do not provide empty fields like `facebook:`. Ask the mentors if you do not know their accounts.
 - Avoid using contractions such as *can't, don't,* etc. If there is no choice (e.g. the name has single quote mark) put double quotes (`"`) around that part.
-- Try to use abbreviations in your name wherever possible, i.e. restrict it to 13 letters (including spaces), otherwise it might be truncated automatically. However, the name will be displayed completely when you hover on it on the website.
+- Try to use abbreviations in your name wherever possible, i.e. restrict it to 13 letters (including spaces), otherwise it might be truncated automatically, however; the name will be displayed completely when you hover over it on the website.
 
 **IMPORTANT:**
 
-- All images must be optimized before uploaded to the repo via commit or PR. You may use any image optimizer of your choice.
+- All images must be optimized before uploaded to the repo via commit or PR. You may use an image optimizer of your choice.
 - The images should be 240 x 240 pixels.
-- Adding Facebook, Twitter, Github, etc. is not obliged. But if you do not want to include your social media accounts, please do not provide empty fields like `facebook:`.
+- Adding Facebook, Twitter, Github, etc. is not compulsary, but if you do not want to include your social media accounts, please do not provide empty fields like `facebook:`.
 - Avoid changing the whole file just to add yourself. Line endings should not change.
 - Avoid using contractions such as *can't, don't,* etc. If there is no choice (e.g. your name has single quote mark) put double quotes (`"`) around that part.
-- Try to use abbreviations in your name wherever possible, i.e. restrict your name in 13 letters (including spaces), otherwise your name might be truncated automatically. However, your name will be displayed completely when you hover on it on the website.
+- Try to use abbreviations in your name wherever possible, i.e. restrict your name in 13 letters (including spaces), otherwise your name might be truncated automatically, however; your name will be displayed completely when you hover over it on the website.
 
 
 **IMPORTANT:**
 
 - Put the images in the `/images/` folder. All images must be optimized before uploaded to the repo via commit or PR, you may use any image optimizer of your choice.
-- Adding `action` and `actionURL` is not obliged. If you do not add, please do not provide empty fields like `action:`. If you do, please provide both `action` and `actionURL`.
+- Adding `action` and `actionURL` is not compulsary. If you do not add them, please do not provide empty fields like `action:`. If you do, please provide both `action` and `actionURL`.
 - Try to equalize the length of `exp-1`, `exp-2`, and `exp-3` in combination with `action`.
 
 # Finding Support
